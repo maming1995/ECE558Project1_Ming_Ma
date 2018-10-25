@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="operand1_hint">Enter Operand 1 in Decimal(ex: 1.0)</string>
+    <string name="operand2_hint">Enter Operand 2 in Decimal(ex: 1.0)</string>
+    <string name="result">Result:</string>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="multiplication">X</string>
+    <string name="division">/</string>
+    <string name="percentage">%</string>
+    <string name="square_root">√￣</string>
+
+</resources>

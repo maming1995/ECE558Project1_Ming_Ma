@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/vertical_margin"
+    android:paddingTop="@dimen/vertical_margin"
+    android:paddingLeft="@dimen/horizontal_margin"
+    android:paddingRight="@dimen/horizontal_margin"
+    tools:context=".CalculatorActivity"
+    android:orientation="vertical">
+    
+    <!-- Create a EditText box to get the input from user for operand 1-->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="@string/operand1_hint" />
+
+    <!-- Create a EditText box to get the input from user for operand 2-->
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="@string/operand2_hint" />
+
+    <!-- Create a TextView to describe the Result-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:padding="16dp"
+        android:textStyle="bold"/>
+
+    <!-- Create a TextView to show the Result-->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_result"
+        android:textStyle="bold"/>
+
+    <!-- Create a Button to achieve the "+" function-->
+    <Button
+        android:id="@+id/buttonForAddition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addition" />
+
+    <!-- Create a Button to achieve the "-" function-->
+    <Button
+        android:id="@+id/buttonForSubtraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtraction"/>
+
+    <!-- Create a Button to achieve the "X" function-->
+    <Button
+        android:id="@+id/buttonForMultiplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multiplication"/>
+
+    <!-- Create a Button to achieve the "/" function-->
+    <Button
+        android:id="@+id/buttonForDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/division"/>
+
+    <!-- Create a Button to achieve the "%" function-->
+    <Button
+        android:id="@+id/buttonForPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percentage"/>
+
+    <!-- Create a Button to achieve the "√￣" function-->
+    <Button
+        android:id="@+id/buttonForSquareRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/square_root"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft=""/>
+
+</LinearLayout>
