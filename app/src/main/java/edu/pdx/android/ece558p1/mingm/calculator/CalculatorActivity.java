@@ -2,7 +2,7 @@
 //October 15, 2018. Reference: Professor Roy's ohm's law calculator.
 //Do the basic logic operations(+, -, *, /, %, square_root) between two operands.
 package edu.pdx.android.ece558p1.mingm.calculator;
-
+//Test git
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
